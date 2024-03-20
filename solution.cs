@@ -1,10 +1,5 @@
-using System;
-using System.Collections.Generic;
-
-class Program
+public static int LongestConsecutive(int[] nums)
 {
-    static void Main(string[] args)
-    {
-        int[] nums = { 100, 4, 200, 1, 3, 2 };
-    }
+    var numSet = new HashSet<int>(nums);
+    int longestStreak = 0;
 }
