@@ -1,6 +1,4 @@
-def longest_consecutive(nums):
-    if not nums:
-        return 0
-
-    nums = set(nums)
-    longest_streak = 0
+for num in nums:
+        if num - 1 not in nums:
+            current_num = num
+            current_streak = 1
